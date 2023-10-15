@@ -101,6 +101,6 @@ class TodosTest {
 
         Task[] expected = {simpleTask, epic, meeting};
         Task[] actual = todos.findAll();
-gi        Assertions.assertArrayEquals(expected, actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 }
